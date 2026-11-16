@@ -7,7 +7,7 @@
 **Duration:** 296.70 s  
 **Scored agent runs:** 62  
 **Deterministic edge checks:** 34/34 passed  
-**Benchmark build:** 0.2.0 (0.2.1 is a CortexDB sidecar compatibility fix; model-facing metrics unchanged)
+**Benchmark build:** 0.2.0 (0.2.1 fixes real-sidecar compatibility; 0.2.2 surfaces native graph facts in recall; fake-backend metrics unchanged)
 
 ## Overall
 
