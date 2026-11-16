@@ -6,7 +6,8 @@
 **Generated:** 2026-11-16T13:03:50+00:00  
 **Duration:** 296.70 s  
 **Scored agent runs:** 62  
-**Deterministic edge checks:** 34/34 passed
+**Deterministic edge checks:** 34/34 passed  
+**Benchmark build:** 0.2.0 (0.2.1 is a CortexDB sidecar compatibility fix; model-facing metrics unchanged)
 
 ## Overall
 
