@@ -28,7 +28,7 @@
 | Response speed | **73.7** | 6 |
 | Autonomous task completion | **65.0** | 12 |
 | Prompt caching | **84.4** | 2 |
-| Files, specialists, memory & graph | **100.0** | — |
+| Files, specialists, memory, graph & security | **100.0** | — |
 
 ## Headline metrics
 
@@ -227,7 +227,7 @@
 **Cache diagnosis:** the clock changes every turn but is trailing, so it no longer invalidates the cached prefix
 
 
-## Files, specialists, memory & graph
+## Files, specialists, memory, graph & security
 
 | Metric | Value | Target/Score | Interpretation |
 | --- | ---: | ---: | --- |
@@ -244,7 +244,7 @@ Scores are heuristic normalizations against explicit targets; inspect the raw me
 
 ## Edge-case coverage
 
-The deterministic **Files, specialists, memory & graph** suite ran alongside the live suites:
+The deterministic **Files, specialists, memory, graph & security** suite ran alongside the live suites:
 
 - **Files (12/12):** DOCX, ODF, EPUB, RTF, EML, nested ZIP/TAR, HTML script stripping, HTML tables, empty files, malformed DOCX, archive total-byte caps, wide-CSV fallback.
 - **Specialists (14/14):** manifest round-trip, lexical routing, forbidden delegation-control tools, scoped registry, worker spawning, workspace escape rejection, SQLite daily stores, daily recall, provisional creation, unsafe-tool stripping, quotas.
