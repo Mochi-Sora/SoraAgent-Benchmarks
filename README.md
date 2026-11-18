@@ -15,11 +15,10 @@
 <p align="center">
   <a href="https://github.com/Mochi-Sora/SoraAgent">SoraAgent</a> ·
   <a href="https://mochi-sora.github.io/SoraOfficialWebsite/#benchmarks">Website</a> ·
-  <a href="https://discord.gg/s8W6JfBSMH">Discord</a> ·
-  <a href="https://github.com/Mochi-Sora/SoraAgent/tree/main/benchmark">Harness source</a>
+  <a href="https://discord.gg/s8W6JfBSMH">Discord</a>
 </p>
 
-This repository publishes the public **SoraAgent live scoreboard**. The harness itself lives in [`SoraAgent/benchmark`](https://github.com/Mochi-Sora/SoraAgent/tree/main/benchmark); this repo is the stable, linkable record of each release's results.
+This repository publishes the public **SoraAgent live scoreboard**. The benchmark harness is maintained alongside the SoraAgent project; this repo is the stable, linkable record of each release's results.
 
 SoraAgent Benchmarks is **not a leaderboard**. Every release is run through the same scenarios, and raw metrics matter more than the heuristic 0–100 scores. Weak suites stay visible.
 
@@ -58,13 +57,9 @@ SoraAgent Benchmarks is **not a leaderboard**. Every release is run through the 
 
 ## Reproduce it
 
-The harness reads the sibling `SoraAgent` checkout, so clone both side by side:
+The harness runs deterministic simulated scenarios and live-model scenarios from a checkout of the SoraAgent benchmark project. A run writes `report.json`, `summary.md`, `metrics.csv`, and `runs.jsonl` under `results/`.
 
 ```bash
-git clone https://github.com/Mochi-Sora/SoraAgent.git
-git clone https://github.com/Mochi-Sora/SoraAgent-Benchmarks.git
-cd SoraAgent/benchmark
-
 # Deterministic, no API key
 python3 run_benchmark.py
 
@@ -74,7 +69,7 @@ python3 run_benchmark.py --mode live --provider deepseek \
   --model deepseek-flash --runs 2 --suites all
 ```
 
-Reports land under `results/`: `report.json`, `summary.md`, `metrics.csv`, and `runs.jsonl`. See the [harness README](https://github.com/Mochi-Sora/SoraAgent/tree/main/benchmark) for flags, scoring, and suite details.
+The published result above is the canonical source; raw metrics are in [SoraAgent-live-scoreboard.md](SoraAgent-live-scoreboard.md).
 
 ## License
 
