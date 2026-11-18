@@ -10,6 +10,7 @@
   <a href="https://github.com/Mochi-Sora/SoraAgent-Benchmarks/blob/main/SoraAgent-live-scoreboard.md"><img src="https://img.shields.io/badge/live%20score-84.4%2F100-6f42c1" alt="Live score 84.4/100"></a>
   <a href="https://github.com/Mochi-Sora/SoraAgent"><img src="https://img.shields.io/badge/SoraAgent-0.3.2-1f6feb" alt="SoraAgent 0.3.2"></a>
   <a href="https://github.com/Mochi-Sora/SoraAgent-Benchmarks/blob/main/SoraAgent-live-scoreboard.md"><img src="https://img.shields.io/badge/edge%20checks-54%2F54-2ea44f" alt="54 of 54 edge checks"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-2ea44f" alt="MIT license"></a>
 </p>
 
 <p align="center">
@@ -73,4 +74,4 @@ The published result above is the canonical source; raw metrics are in [SoraAgen
 
 ## License
 
-SoraAgent and this benchmark are **AGPL-3.0-only**. © 2026 Tam Kuan Hou (譚君浩 / Marco Tam).
+The benchmark harness in this repository is **MIT-licensed**; see [`LICENSE`](LICENSE). SoraAgent itself is **AGPL-3.0-only**. © 2026 Tam Kuan Hou (譚君浩 / Marco Tam).
