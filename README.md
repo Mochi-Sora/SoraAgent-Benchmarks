@@ -7,8 +7,8 @@
 <p align="center"><strong>Measured, not claimed.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/Mochi-Sora/SoraAgent-Benchmarks/blob/main/SoraAgent-live-scoreboard.md"><img src="https://img.shields.io/badge/live%20score-84.4%2F100-6f42c1" alt="Live score 85.1/100"></a>
-  <a href="https://github.com/Mochi-Sora/SoraAgent"><img src="https://img.shields.io/badge/SoraAgent-0.3.2-1f6feb" alt="SoraAgent 0.3.1"></a>
+  <a href="https://github.com/Mochi-Sora/SoraAgent-Benchmarks/blob/main/SoraAgent-live-scoreboard.md"><img src="https://img.shields.io/badge/live%20score-84.4%2F100-6f42c1" alt="Live score 84.4/100"></a>
+  <a href="https://github.com/Mochi-Sora/SoraAgent"><img src="https://img.shields.io/badge/SoraAgent-0.3.2-1f6feb" alt="SoraAgent 0.3.2"></a>
   <a href="https://github.com/Mochi-Sora/SoraAgent-Benchmarks/blob/main/SoraAgent-live-scoreboard.md"><img src="https://img.shields.io/badge/edge%20checks-54%2F54-2ea44f" alt="54 of 54 edge checks"></a>
 </p>
 
