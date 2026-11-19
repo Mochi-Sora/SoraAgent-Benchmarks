@@ -7,8 +7,8 @@
 <p align="center"><strong>Measured, not claimed.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/Mochi-Sora/SoraAgent-Benchmarks/blob/main/SoraAgent-live-scoreboard.md"><img src="https://img.shields.io/badge/live%20score-84.4%2F100-6f42c1" alt="Live score 84.4/100"></a>
-  <a href="https://github.com/Mochi-Sora/SoraAgent"><img src="https://img.shields.io/badge/SoraAgent-0.3.2-1f6feb" alt="SoraAgent 0.3.2"></a>
+  <a href="https://github.com/Mochi-Sora/SoraAgent-Benchmarks/blob/main/SoraAgent-live-scoreboard.md"><img src="https://img.shields.io/badge/live%20score-84.8%2F100-6f42c1" alt="Live score 84.8/100"></a>
+  <a href="https://github.com/Mochi-Sora/SoraAgent"><img src="https://img.shields.io/badge/SoraAgent-0.4.0-1f6feb" alt="SoraAgent 0.4.0"></a>
   <a href="https://github.com/Mochi-Sora/SoraAgent-Benchmarks/blob/main/SoraAgent-live-scoreboard.md"><img src="https://img.shields.io/badge/edge%20checks-54%2F54-2ea44f" alt="54 of 54 edge checks"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-2ea44f" alt="MIT license"></a>
 </p>
@@ -27,8 +27,8 @@ SoraAgent Benchmarks is **not a leaderboard**. Every release is run through the 
 
 | | |
 | --- | --- |
-| SoraAgent | **0.3.2** |
-| Overall | **84.4 / 100 (B)** |
+| SoraAgent | **0.4.0** |
+| Overall | **84.8 / 100 (B)** |
 | Model | DeepSeek V4.1 Flash (`deepseek-flash`) |
 | Mode | live, 62 model runs |
 | Deterministic edge checks | **54 / 54** |
@@ -36,13 +36,13 @@ SoraAgent Benchmarks is **not a leaderboard**. Every release is run through the 
 
 | Suite | Score |
 | --- | ---: |
-| Token usage | 67.0 |
-| Tool-use accuracy | 92.0 |
+| Token usage | 68.9 |
+| Tool-use accuracy | 86.1 |
 | Memory retention | 95.1 |
 | Dreaming mechanism | 100.0 |
-| Response speed | 74.7 |
-| Autonomous task completion | 62.9 |
-| Prompt caching | 83.5 |
+| Response speed | 77.6 |
+| Autonomous task completion | 65.0 |
+| Prompt caching | 85.6 |
 | Files, specialists, memory, graph & security | 100.0 |
 
 ## What is measured

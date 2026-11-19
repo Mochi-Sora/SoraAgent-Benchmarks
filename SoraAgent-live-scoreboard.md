@@ -2,9 +2,9 @@
 
 **Model:** DeepSeek V4.1 Flash (`deepseek-flash`)  
 **Mode:** live OpenAI-compatible API  
-**SoraAgent:** 0.3.2  
-**Generated:** 2026-11-18T05:49:52+00:00  
-**Duration:** 272.94 s  
+**SoraAgent:** 0.4.0  
+**Generated:** 2026-11-19T05:39:20+00:00  
+**Duration:** 277.42 s  
 **Scored agent runs:** 62  
 **Deterministic edge checks:** 54/54 passed
 
@@ -12,80 +12,80 @@
 
 | Metric | Value |
 | --- | ---: |
-| Overall score | **84.4 / 100 (B)** |
-| Total tokens per run | 9,213 tokens |
-| Effective prompt cache hit rate | 80.4% |
+| Overall score | **84.8 / 100 (B)** |
+| Total tokens per run | 8,597 tokens |
+| Effective prompt cache hit rate | 83.3% |
 | Scored edge checks | 54 / 54 |
 
 ## Suite scores
 
 | Suite | Score | Scored runs |
 | --- | ---: | ---: |
-| Token usage | **67.0** | 8 |
-| Tool-use accuracy | **92.0** | 20 |
+| Token usage | **68.9** | 8 |
+| Tool-use accuracy | **86.1** | 20 |
 | Memory retention | **95.1** | 14 |
 | Dreaming mechanism | **100.0** | — |
-| Response speed | **74.7** | 6 |
-| Autonomous task completion | **62.9** | 12 |
-| Prompt caching | **83.5** | 2 |
+| Response speed | **77.6** | 6 |
+| Autonomous task completion | **65.0** | 12 |
+| Prompt caching | **85.6** | 2 |
 | Files, specialists, memory, graph & security | **100.0** | — |
 
 ## Headline metrics
 
 | Metric | Value | Score |
 | --- | ---: | ---: |
-| Total tokens per run | 9,213 tokens | 59.7 / 100 |
-| Successful tasks per 1k tokens | 0.11 tasks/1k | 43.4 / 100 |
-| Tool selection F1 | 93.3% | 98.2 / 100 |
-| Exact trajectory rate | 60.0% | 66.7 / 100 |
+| Total tokens per run | 8,597 tokens | 64.0 / 100 |
+| Successful tasks per 1k tokens | 0.12 tasks/1k | 46.5 / 100 |
+| Tool selection F1 | 90.3% | 95.1 / 100 |
+| Exact trajectory rate | 55.0% | 61.1 / 100 |
 | Retrieval hit rate | 100.0% | 100.0 / 100 |
 | End-to-end answer accuracy | 100.0% | 100.0 / 100 |
 | Retained facts per 1k recall tokens | 27.18 facts/1k | 100.0 / 100 |
 | Dream merge F1 | 100.0% | 100.0 / 100 |
 | Dream conflict F1 | 100.0% | 100.0 / 100 |
 | Duration per 100 memories | 0.32 | 100.0 / 100 |
-| End-to-end latency (p95) | 6.86 s | 43.7 / 100 |
-| Framework overhead (mean) | 19 ms | 100.0 / 100 |
+| End-to-end latency (p95) | 5.96 s | 50.3 / 100 |
+| Framework overhead (mean) | 18 ms | 100.0 / 100 |
 | Net utility of extra actions | +0.00 utility/run | 50.0 / 100 |
 | Harmful-extra execution rate | 0.0% | 100.0 / 100 |
-| Effective prompt cache hit rate | 80.4% | 100.0 / 100 |
-| Prompt cache stability | 25.3% | 25.3 / 100 |
-| Message prefix stability | 92.8% | 100.0 / 100 |
-| Stable prefix tokens | 1,235 tokens | 100.0 / 100 |
+| Effective prompt cache hit rate | 83.3% | 100.0 / 100 |
+| Prompt cache stability | 34.9% | 34.9 / 100 |
+| Message prefix stability | 92.9% | 100.0 / 100 |
+| Stable prefix tokens | 1,574 tokens | 100.0 / 100 |
 | Edge-case checks passed | 100.0 | 100.0 / 100 |
 
 ## Token usage
 
 | Metric | Value | Target/Score | Interpretation |
 | --- | ---: | ---: | --- |
-| Prompt tokens per run | 8,814 tokens | 56.7 / 100 | lower is better |
-| Completion tokens per run | 398 tokens | 100.0 / 100 | lower is better |
-| Total tokens per run | 9,213 tokens | 59.7 / 100 | lower is better |
-| Effective tokens per run (after prefix reuse) | 2,013 tokens | 100.0 / 100 | lower is better |
-| Tokens per successful task | 9,213 tokens | 54.3 / 100 | lower is better |
-| Successful tasks per 1k tokens | 0.11 tasks/1k | 43.4 / 100 | higher is better |
-| Static prompt overhead share | 60.5% | 91.0 / 100 | lower is better |
-| Tool-schema token share | 30.9% | 100.0 / 100 | lower is better |
-| Prompt tokens reused by prefix cache | 81.7% | 100.0 / 100 | higher is better |
+| Prompt tokens per run | 8,238 tokens | 60.7 / 100 | lower is better |
+| Completion tokens per run | 360 tokens | 100.0 / 100 | lower is better |
+| Total tokens per run | 8,597 tokens | 64.0 / 100 | lower is better |
+| Effective tokens per run (after prefix reuse) | 1,701 tokens | 100.0 / 100 | lower is better |
+| Tokens per successful task | 8,597 tokens | 58.2 / 100 | lower is better |
+| Successful tasks per 1k tokens | 0.12 tasks/1k | 46.5 / 100 | higher is better |
+| Static prompt overhead share | 61.0% | 90.2 / 100 | lower is better |
+| Tool-schema token share | 31.3% | 100.0 / 100 | lower is better |
+| Prompt tokens reused by prefix cache | 83.7% | 100.0 / 100 | higher is better |
 | Provider-reported usage available | yes | — | higher is better |
 
 ## Tool-use accuracy
 
 | Metric | Value | Target/Score | Interpretation |
 | --- | ---: | ---: | --- |
-| Tool selection F1 | 93.3% | 98.2 / 100 | higher is better |
-| Tool selection precision | 95.0% | 100.0 / 100 | higher is better |
-| Tool selection recall | 95.0% | 100.0 / 100 | higher is better |
-| Exact trajectory rate | 60.0% | 66.7 / 100 | higher is better |
+| Tool selection F1 | 90.3% | 95.1 / 100 | higher is better |
+| Tool selection precision | 93.8% | 98.7 / 100 | higher is better |
+| Tool selection recall | 92.5% | 97.4 / 100 | higher is better |
+| Exact trajectory rate | 55.0% | 61.1 / 100 | higher is better |
 | Argument accuracy | 81.7% | 86.0 / 100 | higher is better |
 | Forbidden tool rate | 0.0% | 100.0 / 100 | lower is better |
-| Unnecessary call rate | 5.0% | 100.0 / 100 | lower is better |
-| Task success rate | 95.0% | 100.0 / 100 | higher is better |
+| Unnecessary call rate | 6.2% | 80.0 / 100 | lower is better |
+| Task success rate | 85.0% | 89.5 / 100 | higher is better |
 | Tool error rate | 0.0% | 100.0 / 100 | lower is better |
 | Approval compliance | 100.0% | 100.0 / 100 | higher is better |
-| Discovery calls per run | 1.05 calls | 100.0 / 100 | lower is better |
-| Business calls per run | 1.50 calls | — | higher is better |
-| First business call correct | 90.0% | 90.0 / 100 | higher is better |
+| Discovery calls per run | 1.00 calls | 100.0 / 100 | lower is better |
+| Business calls per run | 1.55 calls | — | higher is better |
+| First business call correct | 85.0% | 85.0 / 100 | higher is better |
 
 ## Memory retention
 
@@ -104,7 +104,7 @@
 | Recall payload tokens per query | 48 tokens | 100.0 / 100 | lower is better |
 | Relevant-character density | 34.5% | 62.8 / 100 | higher is better |
 | Corpus-to-recall compression | 6.51 x | — | higher is better; Corpus-size dependent; informational in this fixture. |
-| Recall latency | 3.2 ms | 100.0 / 100 | lower is better |
+| Recall latency | 3.0 ms | 100.0 / 100 | lower is better |
 | Memory efficiency sub-score | 90.7 | — | higher is better |
 
 ### Memory queries
@@ -163,17 +163,17 @@
 
 | Metric | Value | Target/Score | Interpretation |
 | --- | ---: | ---: | --- |
-| End-to-end latency (mean) | 4.74 s | 31.6 / 100 | lower is better |
-| End-to-end latency (p95) | 6.86 s | 43.7 / 100 | lower is better |
-| Provider time (mean) | 4.72 s | 31.8 / 100 | lower is better |
-| Tool time (mean) | 1.9 ms | 100.0 / 100 | lower is better |
-| Framework overhead (mean) | 19.4 ms | 100.0 / 100 | lower is better |
-| Framework overhead (p95) | 28.7 ms | 100.0 / 100 | lower is better |
+| End-to-end latency (mean) | 4.36 s | 34.4 / 100 | lower is better |
+| End-to-end latency (p95) | 5.96 s | 50.3 / 100 | lower is better |
+| Provider time (mean) | 4.35 s | 34.5 / 100 | lower is better |
+| Tool time (mean) | 1.0 ms | 100.0 / 100 | lower is better |
+| Framework overhead (mean) | 17.5 ms | 100.0 / 100 | lower is better |
+| Framework overhead (p95) | 27.0 ms | 100.0 / 100 | lower is better |
 | Framework overhead share | 0.4% | 100.0 / 100 | lower is better |
-| Latency per step | 1173.9 ms/step | 68.1 / 100 | lower is better |
-| Latency per provider call | 1168.6 ms/call | 64.2 / 100 | lower is better |
-| Completion tokens per second | 69.74 tok/s | 100.0 / 100 | higher is better |
-| Tasks per second | 0.23 tasks/s | 11.3 / 100 | higher is better |
+| Latency per step | 1076.8 ms/step | 74.3 / 100 | lower is better |
+| Latency per provider call | 1072.2 ms/call | 69.9 / 100 | lower is better |
+| Completion tokens per second | 67.24 tok/s | 100.0 / 100 | higher is better |
+| Tasks per second | 0.25 tasks/s | 12.4 / 100 | higher is better |
 
 ## Autonomous task completion
 
@@ -189,40 +189,40 @@
 | Duplicate/extraneous action rate | 0.0% | 100.0 / 100 | lower is better; Extras that repeat a requested action or an earlier extra exactly. |
 | Runs with extra actions | 0.0% | — | higher is better |
 | Extra actions per run | 0.00 actions | — | higher is better |
-| Requested task success | 91.7% | 91.7 / 100 | higher is better |
+| Requested task success | 100.0% | 100.0 / 100 | higher is better |
 | Extra consequential actions gated | 100.0% | 100.0 / 100 | higher is better |
 
 ## Prompt caching
 
 | Metric | Value | Target/Score | Interpretation |
 | --- | ---: | ---: | --- |
-| Prompt prefix cache hit rate | 51.8% | 86.3 / 100 | higher is better; Predicted share of prompt tokens reusable as a byte-for-byte prefix; this is conservative when tools precede messages. |
-| Effective prompt cache hit rate | 80.4% | 100.0 / 100 | higher is better; Provider-reported cache hit rate when available, otherwise the predicted prefix hit rate. |
-| Message prefix cache hit rate | 69.1% | 98.7 / 100 | higher is better; Prompt-cache reuse after excluding tool schemas; isolates system-prompt/conversation ordering from tool-catalog churn. |
-| Message prefix stability | 92.8% | 100.0 / 100 | higher is better; Prefix retention for system prompt and conversation only, excluding tool schemas. |
-| Prompt cache stability | 25.3% | 25.3 / 100 | higher is better; Mean prefix retention penalized by its variation across turns. |
-| Stable prefix tokens | 1,235 tokens | 100.0 / 100 | higher is better |
-| Cacheable request rate | 75.0% | 100.0 / 100 | higher is better |
-| Mean prefix retention | 66.2% | 100.0 / 100 | higher is better |
+| Prompt prefix cache hit rate | 61.3% | 100.0 / 100 | higher is better; Predicted share of prompt tokens reusable as a byte-for-byte prefix; this is conservative when tools precede messages. |
+| Effective prompt cache hit rate | 83.3% | 100.0 / 100 | higher is better; Provider-reported cache hit rate when available, otherwise the predicted prefix hit rate. |
+| Message prefix cache hit rate | 72.2% | 100.0 / 100 | higher is better; Prompt-cache reuse after excluding tool schemas; isolates system-prompt/conversation ordering from tool-catalog churn. |
+| Message prefix stability | 92.9% | 100.0 / 100 | higher is better; Prefix retention for system prompt and conversation only, excluding tool schemas. |
+| Prompt cache stability | 34.9% | 34.9 / 100 | higher is better; Mean prefix retention penalized by its variation across turns. |
+| Stable prefix tokens | 1,574 tokens | 100.0 / 100 | higher is better |
+| Cacheable request rate | 77.5% | 100.0 / 100 | higher is better |
+| Mean prefix retention | 75.1% | 100.0 / 100 | higher is better |
 | Worst prefix retention | 0.4% | 1.5 / 100 | higher is better |
-| Tool-schema churn per transition | 37.5% | 62.5 / 100 | lower is better |
+| Tool-schema churn per transition | 22.5% | 77.5 / 100 | lower is better |
 | Clock churn per transition | 100.0% | — | lower is better; Clock content changes are expected; what matters is whether the clock is trailing. See trailing rate. |
 | Clock in trailing position | 100.0% | 100.0 / 100 | higher is better; Fraction of clock-bearing requests where ## CURRENT TIME is the final message, after the conversation. |
 | Identity churn per transition | 0.0% | 100.0 / 100 | lower is better |
-| Prefix breaks per run | 1.50 breaks | 70.0 / 100 | lower is better |
+| Prefix breaks per run | 1.00 breaks | 80.0 / 100 | lower is better |
 | First prompt identical across runs | yes | 100.0 / 100 | higher is better |
-| Cache hit-rate variation across runs | 5.3% | 94.7 / 100 | lower is better |
-| Reused prompt tokens | 8,580 tokens | — | higher is better |
-| Total prompt tokens | 16,578 tokens | — | lower is better |
-| Provider-reported cache hit rate | 80.4% | 100.0 / 100 | higher is better |
+| Cache hit-rate variation across runs | 3.5% | 96.5 / 100 | lower is better |
+| Reused prompt tokens | 11,339 tokens | — | higher is better |
+| Total prompt tokens | 18,487 tokens | — | lower is better |
+| Provider-reported cache hit rate | 83.3% | 100.0 / 100 | higher is better |
 | Provider-reported cache counters available | yes | — | higher is better |
-| Predicted vs reported cache-rate error | 28.6% | 71.4 / 100 | lower is better |
+| Predicted vs reported cache-rate error | 21.9% | 78.1 / 100 | lower is better |
 
 ### Cache ablation
 
 | Variant | Hit rate | Stability | Cached tokens | Prompt tokens |
 | --- | ---: | ---: | ---: | ---: |
-| full | 51.8% | 25.3% | 8580 | 16578 |
+| full | 61.3% | 34.9% | 11339 | 18487 |
 
 **Cache diagnosis:** the clock changes every turn but is trailing, so it no longer invalidates the cached prefix
 
