@@ -7,7 +7,7 @@
 <p align="center"><strong>Measured, not claimed.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/Mochi-Sora/SoraAgent-Benchmarks/blob/main/SoraAgent-live-scoreboard.md"><img src="https://img.shields.io/badge/live%20score-84.8%2F100-6f42c1" alt="Live score 84.8/100"></a>
+  <a href="https://github.com/Mochi-Sora/SoraAgent-Benchmarks/blob/main/SoraAgent-live-scoreboard.md"><img src="https://img.shields.io/badge/live%20score-86.3%2F100-6f42c1" alt="Live score 86.3/100"></a>
   <a href="https://github.com/Mochi-Sora/SoraAgent"><img src="https://img.shields.io/badge/SoraAgent-0.4.0-1f6feb" alt="SoraAgent 0.4.0"></a>
   <a href="https://github.com/Mochi-Sora/SoraAgent-Benchmarks/blob/main/SoraAgent-live-scoreboard.md"><img src="https://img.shields.io/badge/edge%20checks-54%2F54-2ea44f" alt="54 of 54 edge checks"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-2ea44f" alt="MIT license"></a>
@@ -28,22 +28,23 @@ SoraAgent Benchmarks is **not a leaderboard**. Every release is run through the 
 | | |
 | --- | --- |
 | SoraAgent | **0.4.0** |
-| Overall | **84.8 / 100 (B)** |
+| Overall | **86.3 / 100 (B)** |
 | Model | DeepSeek V4.1 Flash (`deepseek-flash`) |
-| Mode | live, 62 model runs |
+| Mode | live, 78 model runs |
 | Deterministic edge checks | **54 / 54** |
 | Full report | [SoraAgent-live-scoreboard.md](SoraAgent-live-scoreboard.md) |
 
 | Suite | Score |
 | --- | ---: |
-| Token usage | 68.9 |
-| Tool-use accuracy | 86.1 |
+| Token usage | 67.9 |
+| Tool-use accuracy | 89.4 |
 | Memory retention | 95.1 |
 | Dreaming mechanism | 100.0 |
-| Response speed | 77.6 |
+| Response speed | 75.1 |
 | Autonomous task completion | 65.0 |
-| Prompt caching | 85.6 |
+| Prompt caching | 84.2 |
 | Files, specialists, memory, graph & security | 100.0 |
+| General instruction following | 100.0 |
 
 ## What is measured
 
