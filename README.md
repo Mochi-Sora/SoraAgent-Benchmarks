@@ -73,6 +73,13 @@ python3 run_benchmark.py --mode live --provider deepseek \
 
 The published result above is the canonical source; raw metrics are in [SoraAgent-live-scoreboard.md](SoraAgent-live-scoreboard.md).
 
+## Measurement quality
+
+- Replicates are reported with Wilson confidence intervals for success rates and bootstrap intervals for continuous metrics.
+- `--score-mode raw` suppresses the aggregate score while keeping every raw metric visible.
+- Provider-reported token usage is preferred; `--tokenizer tiktoken` enables a model-specific counter when the optional package is installed.
+- The **general** suite and `--adapter command` provide a portable surface for non-SoraAgent harnesses. SoraAgent-specific suites remain clearly labeled.
+
 ## License
 
 The benchmark harness in this repository is **MIT-licensed**; see [`LICENSE`](LICENSE). SoraAgent itself is **AGPL-3.0-only**. © 2026 Tam Kuan Hou (譚君浩 / Marco Tam).
